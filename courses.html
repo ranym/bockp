@@ -1,0 +1,124 @@
+<html>
+
+<head>
+   <title>course</title>
+   <link rel="icon" href="image">
+   <link rel="stylesheet" href="css/style.css">
+ 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+   
+</head>
+
+<body>
+  
+<nav class="navbar navbar-expand-sm  navbar-dark">
+      <!-- Brand/logo -->
+      <a class="navbar-brand" href="#">
+        <img src="logo.png" alt="logo" style="width:40px;">
+      </a>
+      
+      <!-- Links -->
+      <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link"  href="index.html">HOME</a>
+         </li>
+        <li class="nav-item">
+            <a class="nav-link"  href="courses.html">COURSES</a>
+         </li>
+        <li class="nav-item">
+            <a class="nav-link"  href="contact.html">CONTACT</a>
+         </li>
+      </ul>
+    </nav>
+    
+          <div class="container-fluid">
+          
+
+     
+   <div class="bg">
+      <h3 style="font-size:4em">COURSES</h3>
+   </div>
+    
+   <div class="button">
+      <div class="row">
+         <div class="col-md-2"></div>
+         <div class="b1 col-md-2">
+               <a href="#ex1" rel="modal:open"> <button> view more </button></a> 
+         </div>
+         <div class="b2 col-md-2">
+               <a href="#ex1" rel="modal:open"> <button> view more </button></a>
+         </div>
+         <div class="b3 col-md-2">
+               <a href="#ex1" rel="modal:open"> <button> view more </button></a>
+         </div>
+      </div>
+      <div class=" row">
+            <div class="col-md-2"></div>
+         <div class="b4 b col-md-2">
+               <a href="#ex1" rel="modal:open"> <button> view more </button></a>
+         </div>
+         <div class="b5 b col-md-2">
+               <a href="#ex1" rel="modal:open"> <button> view more </button></a>
+         </div>
+         <div class="b6 b col-md-2">
+               <a href="#ex1" rel="modal:open"> <button> view more </button></a>
+         </div>
+      </div>
+      <div class=" row">
+            <div class="col-md-2"></div>
+
+         <div class="b7 b col-md-2 ">
+               <a href="#ex1" rel="modal:open"> <button> view more </button></a>
+         </div>
+         <div class="b8 b col-md-2">
+               <a href="#ex1" rel="modal:open"> <button> view more </button></a>
+         </div>
+         <div class="b9 b col-md-2">
+               <a href="#ex1" rel="modal:open"> <button> view more </button></a>
+         </div>
+      </div>
+   </div>
+   <div class="feed">
+      <div class="test">
+         <h1>feedback</h1>
+      </div>
+
+      <form>
+         <div class="select">
+            <div class="bt">
+               <button   onclick="change()">B</button>
+               <button onclick="ital()">I</button>
+               <button onclick="under()">underline</button>
+               <select id="fs" onchange="fonte()">
+                  <option value="20px">20px</option>
+                  <option value="50px">50px</option>
+               </select>
+               <select id="vl" onchange="val()">
+                  <option value="arial">arial</option>
+                  <option value="verdana">ver</option>
+               </select>
+            </div>
+            <br>
+            <div class="text">
+               <textarea id="texte" cols="30" rows="10"></textarea>
+            </div>
+         </div>
+
+
+      </form>
+   </div>
+   <div id="ex1" class="modal">
+      <p>Thanks for clicking. That felt good.</p>
+      <a href="#" rel="modal:close">Close</a>
+    </div>
+   </div>
+
+</body>
+<script src="js\main.js"></script>
+</html>
